@@ -1,0 +1,66 @@
+[project]
+name = "my-nook"
+version = "0.1.0"
+description = "Daily tech digest web app that runs on AWS or as local services."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "aws-cdk-lib==2.122.0",
+    "arxiv>=2.2.0",
+    "beautifulsoup4>=4.13.5",
+    "boto3>=1.40.20",
+    "constructs>=10.0.0,<11.0.0",
+    "fastapi>=0.118.0",
+    "feedparser>=6.0.11",
+    "gql[aiohttp]>=3.5.3",
+    "httpx>=0.28.1",
+    "jinja2>=3.1.6",
+    "pydantic-ai>=1.5.0",
+    "lxml>=6.0.1",
+    "mangum>=0.19.0",
+    "markdown>=3.9",
+    "praw>=7.8.1",
+    "python-dotenv==1.0.0",
+    "regex>=2025.9.18",
+    "requests>=2.32.5",
+    "sgmllib3k>=1.0.0",
+    "tenacity==9.0.0",
+    "tqdm>=4.67.1",
+    "uvicorn>=0.37.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytz>=2025.2",
+    "pytest>=9.0.2",
+    "ruff>=0.14.11",
+]
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+target-version = "py311"
+
+[tool.ruff.lint]
+exclude = [".venv", "cdk.out"]
+select = [
+    "E",
+    "W",
+    "F",
+    "I",
+    "B",
+    "SIM",
+    "RUF",
+]
+ignore = [
+    "E501",
+    "RUF001",
+    "RUF002",
+    "RUF003",
+    "RUF012",
+    "SIM108",
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests/unit"]

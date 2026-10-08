@@ -1,0 +1,16 @@
+# Sample configuration for tech blog RSS feeds.
+# Replace or add feeds to match the sources you want to monitor.
+[[feeds]]
+key = "huggingface_blog"
+name = "Hugging Face Blog"
+url = "https://huggingface.co/blog/feed.xml"
+
+[[feeds]]
+key = "google_research_blog"
+name = "Google Research Blog"
+url = "https://research.google/blog/rss/"
+
+[[feeds]]
+key = "deepmind_blog"
+name = "DeepMind Blog"
+url = "https://deepmind.google/blog/rss.xml"
