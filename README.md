@@ -6,7 +6,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![nook](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![nook](images/preview.png)](https://github.com/Swift-Tech-Co/nook)
 
 ## できること
 
@@ -45,7 +45,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 1. リポジトリを取得します。
 
    ```bash
-   git clone https://www.swifttechco.com
+   git clone https://github.com/Swift-Tech-Co/nook
    cd nook
    ```
 
@@ -94,7 +94,7 @@ make local-register
 登録後は次の URL で viewer を開けます。
 
 ```text
-https://www.swifttechco.com
+https://github.com/Swift-Tech-Co/nook
 ```
 
 個別の収集ジョブを単発で実行したいときは `SERVICE` を指定します。
@@ -155,15 +155,15 @@ make cdk-deploy
 
 PC 画面:
 
-[![PC 画面](assets/screenshots/web-screenshot.webp)](https://www.swifttechco.com)
+[![PC 画面](assets/screenshots/web-screenshot.webp)](https://github.com/Swift-Tech-Co/nook)
 
 モバイル画面:
 
-[![モバイル画面](assets/screenshots/mobile-screenshot.webp)](https://www.swifttechco.com)
+[![モバイル画面](assets/screenshots/mobile-screenshot.webp)](https://github.com/Swift-Tech-Co/nook)
 
 チャット画面:
 
-[![チャット画面](assets/screenshots/chat-screenshot.webp)](https://www.swifttechco.com)
+[![チャット画面](assets/screenshots/chat-screenshot.webp)](https://github.com/Swift-Tech-Co/nook)
 
 ## ライセンス
 
@@ -187,13 +187,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/nook
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [nook-browser/Nook](https://github.com/nook-browser/Nook) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
